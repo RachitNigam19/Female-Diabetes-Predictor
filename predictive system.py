@@ -2,7 +2,7 @@ import numpy as np
 import pickle 
 
 # Loading the Saving Model 
-loaded_model = pickle.load(open('C:/Users/Rachit Nigam/OneDrive/Desktop/Deployment Diabetes ML Model/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('C:\Users\Rachit Nigam\OneDrive\Desktop\Deployment Diabetes ML Model\ trained_model.sav', 'rb'))
 
 input1 = int(input("Enter the no. of Pregnancies: "))
 input2 = int(input("Glucose Level (e.g., 80): "))
