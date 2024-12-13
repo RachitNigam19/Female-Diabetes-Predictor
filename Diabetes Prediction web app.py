@@ -3,7 +3,7 @@ import pickle
 import streamlit as st
 
 # loading the saved model
-loaded_model = pickle.load(open('C:\Users\Rachit Nigam\OneDrive\Desktop\Deployment Diabetes ML Model\ trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('C:\\Users\\Rachit Nigam\\OneDrive\\Desktop\\Deployment Diabetes ML Model\\srained_model.sav', 'rb'))
 model_accuracy = 0.89  # Replace with your model's accuracy
 
 # Creating a function for prediction
